@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Grid Layout</title>
+
+    <style>
+        .a {
+            background-color: rgb(212, 138, 47)
+        }
+
+        .b {
+            background-color: rgb(135, 103, 15)
+        }
+
+        .c {
+            background-color: rgb(195, 216, 36)
+        }
+
+        .d {
+            background-color: rgb(104, 63, 8)
+        }
+
+        .e {
+            background-color: rgb(164, 124, 75)
+        }
+
+        .f {
+            background-color: rgb(255, 132, 1)
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: 150px;
+            grid-template-columns: 150px 50px 50px;
+            grid-gap: 10px;
+            background-color: rgb(245, 228, 200);
+        }
+
+        .element {
+            font-size: 150%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- elemento principal do grid -->
+    <div class="container">
+
+        <!-- elementos do grid (células) -->
+        <div class="element a">a</div>
+        <div class="element b">b</div>
+        <div class="element c">c</div>
+        <div class="element d">d</div>
+        <div class="element e">e</div>
+        <div class="element f">f</div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+p {
+    color: rgb(28, 240, 42);
+}
+
+.botao {
+    color: rgb(9, 9, 9);
+    background-color: rgb(242, 11, 11);
+    border-radius: 5px;
+    border-color: rgb(24, 27, 27) Courier, monospace;
+}
+
+.rotulo {
+    color: rgb(13, 13, 14);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.entrada {
+    background-color: rgb(20, 26, 24);
+    border-radius: 5px
+}
+
+th {
+    color: rgb(17, 20, 99);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    border: 1px solid rgb(183, 51, 51);
+    justify-content: center;
+}
+
+td {
+    border: 1px solid rgb(208, 50, 50);
+}
+
+tr {
+    text-align: center;
+}
